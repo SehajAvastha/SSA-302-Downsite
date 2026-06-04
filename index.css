@@ -1,20 +1,25 @@
+body {
+    background-color: #FFF6CC;
+}
+
 .container {
     position: relative;
-    display: inline-block;
+    display: inline;
     width: 100vw;
     height: 100vh;
 }
 
 .center-img {
     display: block;
-    margin: 0 auto;
     width: 80vh;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
 }
 
 .overlay-section {
     position: absolute;
-    top: 10%;
+    top: 90%;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.5);
