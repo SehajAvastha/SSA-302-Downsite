@@ -19,7 +19,7 @@ body {
 
 .overlay-section {
     position: absolute;
-    top: 90%;
+    top: 80%;
     left: 50%;
     transform: translateX(-50%);
     background: rgba(0, 0, 0, 0.5);
